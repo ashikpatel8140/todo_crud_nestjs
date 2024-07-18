@@ -1,0 +1,135 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Todos",
+    "collectionId": "495acb85-c438-4182-b222-e12f18312a00",
+    "dateExported": "2024-07-18T06:21:52.173Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5b74757c-b427-4ace-b52d-24b7a874fd3f",
+            "colId": "495acb85-c438-4182-b222-e12f18312a00",
+            "containerId": "",
+            "name": "Create User",
+            "url": "http://localhost:3000/auth/create",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-07-18T05:44:54.461Z",
+            "modified": "2024-07-18T06:05:18.255Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"aaa2@gmail.com\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "17c093d0-e7a2-42a4-a21e-38e758c96830",
+            "colId": "495acb85-c438-4182-b222-e12f18312a00",
+            "containerId": "",
+            "name": "Login User",
+            "url": "http://localhost:3000/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-18T06:06:04.760Z",
+            "modified": "2024-07-18T06:06:45.109Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"aaa2@gmail.com\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b6112399-e300-49a7-968a-fe6163f42521",
+            "colId": "495acb85-c438-4182-b222-e12f18312a00",
+            "containerId": "",
+            "name": "Create Todos",
+            "url": "http://localhost:3000/todos",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-07-18T06:07:21.219Z",
+            "modified": "2024-07-18T06:09:02.907Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"ASHIK\",\n  \"description\": \"PBNKLKJHVVM<KJHG\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsImlhdCI6MTcyMTI4MjgwNX0.cXejd7nb8L23oJhjDDeR5Rg4WDbzson3GPJTWd_mV5m1YHIbY4gjWk4UryGa0sVBd_60lsgfeABD_JcfQy1O_g"
+            }
+        },
+        {
+            "_id": "b47de968-4584-42a3-8a79-1ae395df8da2",
+            "colId": "495acb85-c438-4182-b222-e12f18312a00",
+            "containerId": "",
+            "name": "Update Todo",
+            "url": "http://localhost:3000/todos/3",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-07-18T06:09:28.365Z",
+            "modified": "2024-07-18T06:11:04.132Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"ASHIK cbdkucbj\",\n  \"description\": \"PBNKLKJHVVM<KJHG\",\n  \"status\": true\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsImlhdCI6MTcyMTI4MjgwNX0.cXejd7nb8L23oJhjDDeR5Rg4WDbzson3GPJTWd_mV5m1YHIbY4gjWk4UryGa0sVBd_60lsgfeABD_JcfQy1O_g"
+            }
+        },
+        {
+            "_id": "92817558-139d-4ee4-bc79-d37afb54c4f1",
+            "colId": "495acb85-c438-4182-b222-e12f18312a00",
+            "containerId": "",
+            "name": "GET Todos",
+            "url": "http://localhost:3000/todos",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-07-18T06:11:32.514Z",
+            "modified": "2024-07-18T06:11:58.955Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsImlhdCI6MTcyMTI4MjgwNX0.cXejd7nb8L23oJhjDDeR5Rg4WDbzson3GPJTWd_mV5m1YHIbY4gjWk4UryGa0sVBd_60lsgfeABD_JcfQy1O_g"
+            }
+        },
+        {
+            "_id": "58d21a9f-de9b-4cf9-8267-ee9bfad3441d",
+            "colId": "495acb85-c438-4182-b222-e12f18312a00",
+            "containerId": "",
+            "name": "GET Todo By Id",
+            "url": "http://localhost:3000/todos/3",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-07-18T06:12:51.673Z",
+            "modified": "2024-07-18T06:13:14.293Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsImlhdCI6MTcyMTI4MjgwNX0.cXejd7nb8L23oJhjDDeR5Rg4WDbzson3GPJTWd_mV5m1YHIbY4gjWk4UryGa0sVBd_60lsgfeABD_JcfQy1O_g"
+            }
+        },
+        {
+            "_id": "525df209-8aeb-4a8d-ae8f-bf099f53643e",
+            "colId": "495acb85-c438-4182-b222-e12f18312a00",
+            "containerId": "",
+            "name": "Delete Todo",
+            "url": "http://localhost:3000/todos/5",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-07-18T06:14:16.230Z",
+            "modified": "2024-07-18T06:21:16.253Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsImlhdCI6MTcyMTI4MjgwNX0.cXejd7nb8L23oJhjDDeR5Rg4WDbzson3GPJTWd_mV5m1YHIbY4gjWk4UryGa0sVBd_60lsgfeABD_JcfQy1O_g"
+            }
+        }
+    ],
+    "ref": "0ztHiyrn8PkkeC2UuejbNIUkpH7DTy-p2PfKDGMPAtSmXAYNe_VOGYE-38W7-RL5Lv1tUSNhN3K5KiSGXqnElQ"
+}
